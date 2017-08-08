@@ -1,0 +1,19 @@
+.banner-container{
+  height: 950px;
+
+  .overlay{
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  .banner-image{
+    height: inherit;
+    background-image: url('../../images/phatcatbanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
